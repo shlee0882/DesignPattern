@@ -15,7 +15,9 @@ public class Milk extends CondimentDecorator {
 
     @Override
     public double cost() {
-        return beverage.cost() + 0.10;
+        if(beverage.getSize() == SIZE.VENTI) return beverage.cost() + 0.20;
+        else if(beverage.getSize() == SIZE.GRANDE) return beverage.cost() + 0.15;
+        else return beverage.cost() + 0.10;
     }
 
 }
