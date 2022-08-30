@@ -1,4 +1,4 @@
-package command.simpleRemote.cmd;
+package command.simpleRemote.cmd.control;
 
 import command.simpleRemote.cmd.itf.Command;
 
