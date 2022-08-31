@@ -1,7 +1,6 @@
 package command.simpleRemote.cmd.stereo;
 
 import command.simpleRemote.cmd.itf.Command;
-import command.simpleRemote.cmd.stereo.Stereo;
 
 public class StereoOnWithCDCommand implements Command {
 
@@ -16,4 +15,5 @@ public class StereoOnWithCDCommand implements Command {
         stereo.setCD();
         stereo.setVolume(11);
     }
+
 }

@@ -6,10 +6,10 @@ public class Light {
         lightName = living_room;
     }
 
-    void on(){
+    public void on(){
         System.out.println(lightName+" 조명이 켜졌습니다.");
     };
-    void off(){
+    public void off(){
         System.out.println(lightName+" 조명이 꺼졌습니다.");
     };
 
